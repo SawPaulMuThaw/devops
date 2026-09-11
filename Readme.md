@@ -1,3 +1,3 @@
-![workflow](https://github.com/<sawpaulmuthaw>/<repository>/actions/workflows/main.yml/badge.svg)
+![workflow](https://github.com/<sawpaulmuthaw>/<devops>/actions/workflows/main.yml/badge.svg)
 [![LICENSE](https://img.shields.io/github/license/<sawpaulmuthaw>/devops.svg?style=flat-square)](https://github.com/sawpaulmuthaw/devops/blob/master/LICENSE)
 [![Releases](https://img.shields.io/github/release/<sawpaulmuthaw>/devops/all.svg?style=flat-square)](https://github.com/<sawpaulmuthaw>/devops/releases)
