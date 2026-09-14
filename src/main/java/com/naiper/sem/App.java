@@ -11,7 +11,7 @@ public class App
     public static void main(String[] args)
     {
         // Connect using MongoClients factory method with a valid connection URI
-        try (MongoClient mongoClient = MongoClients.create("mongodb://mongo-dbserver:27017")) {
+        try (MongoClient mongoClient = MongoClients.create("mongo-dbserver")) {
 
             // Get database
             MongoDatabase database = mongoClient.getDatabase("mydb");
