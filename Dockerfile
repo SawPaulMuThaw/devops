@@ -1,4 +1,4 @@
 FROM openjdk:26-ea-slim
-COPY ./target/devops-0.1.0.1-jar-with-dependencies.jar /tmp
+COPY ./target/seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar /tmp/seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar
 WORKDIR /tmp
-ENTRYPOINT ["java", "-jar", "devops-0.1.0.1-jar-with-dependencies.jar"]
+ENTRYPOINT ["java", "-jar", "seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar"]
