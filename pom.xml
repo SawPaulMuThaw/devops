@@ -14,14 +14,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongodb-driver</artifactId>
-            <version>3.6.4</version>
-        </dependency>
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -31,7 +23,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.napier.sem.App</mainClass>
+                            <mainClass>com.naiper.sem.App</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -50,5 +42,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
