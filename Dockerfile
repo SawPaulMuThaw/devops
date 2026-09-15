@@ -1,4 +1,4 @@
 FROM openjdk:26-ea-slim
-COPY ./target/classes/com /tmp/com
+COPY ./target/seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar /tmp/seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar
 WORKDIR /tmp
-ENTRYPOINT ["java", "com.naiper.sem.App"]
+ENTRYPOINT ["java", "-jar", "seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar"]
